@@ -2,7 +2,7 @@
   "agent": {
     "name": "IP-Poisoning-Sentinel",
     "llmProvider": "groq",
-    "llmModel": "qwen/qwen3-32b"
+    "llmModel": "groq/qwen/qwen3.8-27b"
   },
   "plugins": {
     "entries": {

@@ -17,7 +17,7 @@ groq_client = OpenAI(
 )
 
 BANK_ID = os.getenv("HINDSIGHT_BANK_ID", "enterprise-ip-sentinel")
-MODEL_NAME = "qwen/qwen3-32b"
+MODEL_NAME = "qwen/qwen3.8-27b"
 
 def evaluate_diff(code_diff: str, repo_name: str) -> dict:
     # 1. Query Hindsight for relevant memory context

@@ -1,2 +1,7 @@
 venv/ 
 .env 
+*.log
+__pycache__/
+.openclaw/
+*.tmp
+*.swp
