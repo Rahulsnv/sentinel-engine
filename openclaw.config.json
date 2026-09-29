@@ -13,6 +13,35 @@
           "hindsightApiToken": "your_hindsight_api_key_here",
           "dynamicBankId": false
         }
+      },
+      "cua-computer": {
+        "enabled": false
+      },
+      "browser": {
+        "enabled": false
+      },
+      "canvas": {
+        "enabled": false
+      },
+      "linux-node": {
+        "enabled": false
+      },
+      "whatsapp": {
+        "enabled": true
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "groq/qwen/qwen3.8-27b": {
+          "contextWindow": 131072,
+          "maxTokens": 4096
+        }
+      },
+      "compaction": {
+        "reserveTokens": 4096,
+        "maxHistoryTokens": 65536
       }
     }
   }
