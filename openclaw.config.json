@@ -2,7 +2,7 @@
   "agent": {
     "name": "IP-Poisoning-Sentinel",
     "llmProvider": "groq",
-    "llmModel": "groq/qwen/qwen3.8-27b"
+    "llmModel": "groq/openai/gpt-oss-120b"
   },
   "plugins": {
     "entries": {
@@ -10,7 +10,7 @@
         "enabled": true,
         "config": {
           "hindsightApiUrl": "https://api.hindsight.vectorize.io",
-          "hindsightApiToken": "your_hindsight_api_key_here",
+          "hindsightApiToken": "hsk_9546a701ff522212d3521e13bd933b6b_63b21a46c1644227",
           "dynamicBankId": false
         }
       },
@@ -34,7 +34,8 @@
   "agents": {
     "defaults": {
       "models": {
-        "groq/qwen/qwen3.8-27b": {}
+        "groq/qwen/qwen3.8-27b": {},
+        "groq/openai/gpt-oss-120b": {}
       }
     }
   },
@@ -45,6 +46,11 @@
           {
             "id": "qwen/qwen3.8-27b",
             "name": "qwen/qwen3.8-27b",
+            "contextWindow": 131072
+          },
+          {
+            "id": "openai/gpt-oss-120b",
+            "name": "openai/gpt-oss-120b",
             "contextWindow": 131072
           }
         ]
