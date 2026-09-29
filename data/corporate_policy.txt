@@ -1,0 +1,5 @@
+ENTERPRISE IP COMPLIANCE POLICY (v2026):
+1. Approved Licenses: MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, and ISC are fully APPROVED for core binaries.
+2. Prohibited Copyleft: AGPL-3.0, GPL-2.0, GPL-3.0, and SSPL code snippets are STRICTLY FORBIDDEN in core proprietary codebases due to viral valuation risks.
+3. Dynamic Linking Exception: LGPL and MPL are ALLOWED ONLY if dynamically linked without source modification.
+4. Precedent Waivers: Any waiver granted by Legal must be recorded in memory with the target repository name and date.

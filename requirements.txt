@@ -1,0 +1,4 @@
+hindsight-client>=0.10.1
+openai>=1.0.0
+PyGithub>=2.0.0
+python-dotenv>=1.0.0
