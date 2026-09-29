@@ -34,14 +34,19 @@
   "agents": {
     "defaults": {
       "models": {
-        "groq/qwen/qwen3.8-27b": {
-          "contextWindow": 131072,
-          "maxTokens": 4096
-        }
-      },
-      "compaction": {
-        "reserveTokens": 4096,
-        "maxHistoryTokens": 65536
+        "groq/qwen/qwen3.8-27b": {}
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "groq": {
+        "models": [
+          {
+            "id": "qwen/qwen3.8-27b",
+            "name": "qwen/qwen3.8-27b"
+          }
+        ]
       }
     }
   }
