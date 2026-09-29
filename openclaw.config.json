@@ -45,8 +45,7 @@
           {
             "id": "qwen/qwen3.8-27b",
             "name": "qwen/qwen3.8-27b",
-            "contextWindow": 131072,
-            "maxOutputTokens": 4096
+            "contextWindow": 131072
           }
         ]
       }
